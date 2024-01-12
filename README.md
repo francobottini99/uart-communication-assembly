@@ -1,4 +1,4 @@
-# Proyecto de Comunicación UART entre Microcontroladores en Ensamblador
+# Comunicación UART entre Microcontroladores PIC16F887
 
 Este proyecto, escrito en lenguaje ensamblador, consiste en la implementación de un sistema de comunicación UART entre dos microcontroladores PIC16F887. Un microcontrolador actúa como emisor, mientras que el otro actúa como receptor. La comunicación se establece a través de transmisiones y recepciones de datos seriales, permitiendo la interacción entre ambos dispositivos. El proytecto esta implementado en el entorno de desarrollo **MPLAB X IDE**.
 
