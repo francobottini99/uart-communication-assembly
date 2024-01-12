@@ -1,0 +1,73 @@
+MPLINK 5.09, LINKER
+Linker Map File - Created Sun Jun 05 19:36:52 2022
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000002
+                   .cinit    romdata   0x000001    program   0x000004
+                   .org_1       code   0x000004    program   0x000014
+                   .org_2       code   0x000030    program   0x00010a
+.config_2007_BUILD/DEFAULT/PRODUCTION/MAIN.O       code   0x002007    program   0x000002
+.config_2008_BUILD/DEFAULT/PRODUCTION/MAIN.O       code   0x002008    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000002      
+                            0x000004    0x00000d      
+                            0x000030    0x0000b4      
+                            0x002007    0x002008      
+            148 out of 8455 program addresses used, program memory utilization is 1%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                      Add   0x0000a0    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Emisor\main.asm
+                 Debounce   0x0000b0    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Emisor\main.asm
+                     Full   0x00009e    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Emisor\main.asm
+                   Keypad   0x000058    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Emisor\main.asm
+                     Loop   0x00004b    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Emisor\main.asm
+               PollBuffer   0x0000a7    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Emisor\main.asm
+                PutBuffer   0x000098    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Emisor\main.asm
+              ScanColumns   0x000071    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Emisor\main.asm
+                 ScanRows   0x000081    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Emisor\main.asm
+             SendRegister   0x00004f    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Emisor\main.asm
+             _.org_2_0054   0x000054    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Emisor\main.asm
+             _.org_2_0068   0x000068    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Emisor\main.asm
+             _.org_2_006A   0x00006a    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Emisor\main.asm
+             _.org_2_006C   0x00006c    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Emisor\main.asm
+             _.org_2_006E   0x00006e    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Emisor\main.asm
+             _.org_2_00B3   0x0000b3    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Emisor\main.asm
+                     main   0x000030    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Emisor\main.asm
+              resetVector   0x000000    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Emisor\main.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+              resetVector   0x000000    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Emisor\main.asm
+                     main   0x000030    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Emisor\main.asm
+                     Loop   0x00004b    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Emisor\main.asm
+             SendRegister   0x00004f    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Emisor\main.asm
+             _.org_2_0054   0x000054    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Emisor\main.asm
+                   Keypad   0x000058    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Emisor\main.asm
+             _.org_2_0068   0x000068    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Emisor\main.asm
+             _.org_2_006A   0x00006a    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Emisor\main.asm
+             _.org_2_006C   0x00006c    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Emisor\main.asm
+             _.org_2_006E   0x00006e    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Emisor\main.asm
+              ScanColumns   0x000071    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Emisor\main.asm
+                 ScanRows   0x000081    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Emisor\main.asm
+                PutBuffer   0x000098    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Emisor\main.asm
+                     Full   0x00009e    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Emisor\main.asm
+                      Add   0x0000a0    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Emisor\main.asm
+               PollBuffer   0x0000a7    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Emisor\main.asm
+                 Debounce   0x0000b0    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Emisor\main.asm
+             _.org_2_00B3   0x0000b3    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Emisor\main.asm
+
+

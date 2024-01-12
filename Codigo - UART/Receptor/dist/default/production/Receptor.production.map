@@ -1,0 +1,83 @@
+MPLINK 5.09, LINKER
+Linker Map File - Created Sun Jun 05 19:42:05 2022
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000002
+                   .cinit    romdata   0x000001    program   0x000004
+                   .org_1       code   0x000004    program   0x000018
+                   .org_2       code   0x000030    program   0x000150
+.config_2007_BUILD/DEFAULT/PRODUCTION/MAIN.O       code   0x002007    program   0x000002
+.config_2008_BUILD/DEFAULT/PRODUCTION/MAIN.O       code   0x002008    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000002      
+                            0x000004    0x00000f      
+                            0x000030    0x0000d7      
+                            0x002007    0x002008      
+            185 out of 8455 program addresses used, program memory utilization is 2%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                      Add   0x0000b7    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Receptor\main.asm
+                Backspace   0x00009d    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Receptor\main.asm
+                    Clean   0x00009a    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Receptor\main.asm
+                    Clear   0x0000a3    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Receptor\main.asm
+            DecodeDisplay   0x0000c7    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Receptor\main.asm
+                   Delete   0x00008a    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Receptor\main.asm
+              DisplayData   0x00007e    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Receptor\main.asm
+                     Done   0x00009b    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Receptor\main.asm
+                   Finish   0x00006e    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Receptor\main.asm
+                     Full   0x0000b5    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Receptor\main.asm
+                     Init   0x00006a    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Receptor\main.asm
+                Main_Loop   0x00004f    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Receptor\main.asm
+                Multiplex   0x00005b    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Receptor\main.asm
+               PollBuffer   0x0000be    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Receptor\main.asm
+                PutBuffer   0x0000af    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Receptor\main.asm
+                   Recibe   0x000057    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Receptor\main.asm
+           RecibeRegister   0x000052    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Receptor\main.asm
+                  Refresh   0x000072    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Receptor\main.asm
+                  RegClrf   0x0000a5    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Receptor\main.asm
+                ResetUART   0x000055    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Receptor\main.asm
+                     Save   0x000090    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Receptor\main.asm
+                     main   0x000030    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Receptor\main.asm
+              resetVector   0x000000    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Receptor\main.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+              resetVector   0x000000    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Receptor\main.asm
+                     main   0x000030    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Receptor\main.asm
+                Main_Loop   0x00004f    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Receptor\main.asm
+           RecibeRegister   0x000052    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Receptor\main.asm
+                ResetUART   0x000055    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Receptor\main.asm
+                   Recibe   0x000057    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Receptor\main.asm
+                Multiplex   0x00005b    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Receptor\main.asm
+                     Init   0x00006a    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Receptor\main.asm
+                   Finish   0x00006e    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Receptor\main.asm
+                  Refresh   0x000072    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Receptor\main.asm
+              DisplayData   0x00007e    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Receptor\main.asm
+                   Delete   0x00008a    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Receptor\main.asm
+                     Save   0x000090    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Receptor\main.asm
+                    Clean   0x00009a    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Receptor\main.asm
+                     Done   0x00009b    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Receptor\main.asm
+                Backspace   0x00009d    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Receptor\main.asm
+                    Clear   0x0000a3    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Receptor\main.asm
+                  RegClrf   0x0000a5    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Receptor\main.asm
+                PutBuffer   0x0000af    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Receptor\main.asm
+                     Full   0x0000b5    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Receptor\main.asm
+                      Add   0x0000b7    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Receptor\main.asm
+               PollBuffer   0x0000be    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Receptor\main.asm
+            DecodeDisplay   0x0000c7    program     static C:\Users\Franco\Documents\04) FACULTAD\31) ELECTRONICA DIGITAL II\Trabajo Final\Codigo - UART\Receptor\main.asm
+
+
