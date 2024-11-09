@@ -1,67 +1,67 @@
-# Comunicación UART entre Microcontroladores PIC16F887
+# UART Communication Between PIC16F887 Microcontrollers
 
-Este proyecto, escrito en lenguaje ensamblador, consiste en la implementación de un sistema de comunicación UART entre dos microcontroladores PIC16F887. Un microcontrolador actúa como emisor, mientras que el otro actúa como receptor. La comunicación se establece a través de transmisiones y recepciones de datos seriales, permitiendo la interacción entre ambos dispositivos. El proytecto esta implementado en el entorno de desarrollo **MPLAB X IDE**.
+This project, written in assembly language, involves the implementation of a UART communication system between two PIC16F887 microcontrollers. One microcontroller acts as the transmitter, while the other functions as the receiver. The communication is established through serial data transmissions and receptions, allowing interaction between both devices. The project is developed in the **MPLAB X IDE** environment.
 
-## Autores
+## Authors
 - **Franco Nicolas Bottini**
 - **Valentin Robledo**
 - **Aquiles Benjamin Lencina**
 - **Santiago Quinteros del Castillo**
 
-## Componentes Utilizados
-### Microcontroladores
-- **Emisor:** PIC16F887
-- **Receptor:** PIC16F887
+## Components Used
+### Microcontrollers
+- **Transmitter:** PIC16F887
+- **Receiver:** PIC16F887
 
-### Otros Componentes
-- **Teclado Matricial:** Utilizado en el emisor para la entrada de datos.
-- **Display de 7 Segmentos:** Implementado en el receptor para la visualización de datos recibidos.
+### Other Components
+- **Matrix Keypad:** Used on the transmitter for data input.
+- **7-Segment Display:** Implemented on the receiver for displaying received data.
 
-## Simulación en Proteus
-El proyecto incluye la simulación del sistema en el entorno de diseño electrónico Proteus. Esto permite verificar el funcionamiento del sistema antes de su implementación física, garantizando una mayor eficiencia en el desarrollo y la identificación temprana de posibles problemas.
+## Simulation in Proteus
+The project includes a simulation of the system in the Proteus electronic design environment. This allows for verifying the system's functionality before physical implementation, ensuring greater efficiency in development and early identification of potential issues.
 
-## Funcionalidades Principales
-1. **Emisor:**
-   - Escanea un teclado matricial para la entrada de datos.
-   - Almacena los datos en un buffer para su posterior transmisión a través de UART.
+## Main Features
+1. **Transmitter:**
+   - Scans a matrix keypad for data input.
+   - Stores the data in a buffer for later transmission via UART.
 
-2. **Receptor:**
-   - Recibe datos a través de la comunicación UART.
-   - Visualiza los datos recibidos en un display de 7 segmentos.
+2. **Receiver:**
+   - Receives data through UART communication.
+   - Displays the received data on a 7-segment display.
 
-## Desarrollo del Proyecto
+## Project Development
 
-### Configuración de los Microcontroladores
-- Se selecciona el microcontrolador PIC16F887 para ambos el emisor y el receptor.
-- La configuración incluye la frecuencia del oscilador, configuración de los pines, y otros parámetros específicos de los microcontroladores.
+### Microcontroller Configuration
+- The PIC16F887 microcontroller is selected for both the transmitter and receiver.
+- The configuration includes oscillator frequency, pin setup, and other microcontroller-specific parameters.
 
-### Comunicación UART
-- Se establece la comunicación UART entre los microcontroladores mediante los pines TX y RX.
-- La configuración de la velocidad de transmisión (baud rate) se realiza para garantizar una comunicación eficiente y confiable.
+### UART Communication
+- UART communication is established between the microcontrollers using the TX and RX pins.
+- The transmission speed (baud rate) is configured to ensure efficient and reliable communication.
 
-### Teclado Matricial (Emisor)
-- Se implementa el escaneo de un teclado matricial para la entrada de datos en el emisor.
-- La detección de pulsaciones se realiza de manera precisa para evitar lecturas erróneas.
+### Matrix Keypad (Transmitter)
+- A matrix keypad scan is implemented for data input on the transmitter.
+- Accurate keypress detection is ensured to prevent erroneous readings.
 
-### Display de 7 Segmentos (Receptor)
-- El receptor cuenta con un display de 7 segmentos para visualizar los datos recibidos.
-- Se ha definido una tabla de decodificación para convertir los datos en formatos adecuados para la visualización.
+### 7-Segment Display (Receiver)
+- The receiver includes a 7-segment display for visualizing the received data.
+- A decoding table is defined to convert data into appropriate formats for display.
 
-### Subrutinas Específicas
-1. **PutBuffer (Emisor):**
-   - Almacena los datos provenientes del teclado matricial en un buffer para su posterior transmisión.
+### Specific Subroutines
+1. **PutBuffer (Transmitter):**
+   - Stores data from the matrix keypad in a buffer for later transmission.
 
-2. **PollBuffer (Receptor):**
-   - Verifica y extrae datos del buffer de recepción para su procesamiento.
+2. **PollBuffer (Receiver):**
+   - Checks and extracts data from the reception buffer for processing.
 
-3. **SendRegister (Emisor):**
-   - Envía los datos almacenados en el buffer a través de la comunicación UART.
+3. **SendRegister (Transmitter):**
+   - Sends the data stored in the buffer via UART communication.
 
-4. **Keypad (Emisor):**
-   - Escaneo y manejo de pulsaciones del teclado matricial, asegurando una entrada de datos correcta.
+4. **Keypad (Transmitter):**
+   - Handles keypad scanning and keypress management, ensuring correct data input.
 
-5. **DisplayData (Receptor):**
-   - Procesa los datos recibidos y los muestra en el display de 7 segmentos.
+5. **DisplayData (Receiver):**
+   - Processes received data and displays it on the 7-segment display.
 
-6. **Multiplex (Receptor):**
-   - Realiza la multiplexación para actualizar la visualización en el display.
+6. **Multiplex (Receiver):**
+   - Performs multiplexing to update the display visualization.
